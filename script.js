@@ -41,7 +41,7 @@ function newGame() {
   document.querySelector(".inputs-Values").value = "";
   finalOutput.innerText = "Guess a number between 1 and 10";
 
-  tries = 7;
+  tries = 3;
   triesOutput.innerHTML = `Number of Tries: <b>${tries}</b>`;
   isPlaying = true;
 }
